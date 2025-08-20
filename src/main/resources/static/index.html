@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .endpoint {
+            background: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🚀 Spring Boot Application Running Successfully!</h1>
+    <p>Your Spring Boot application is deployed and running.</p>
+
+    <h2>Available Endpoints:</h2>
+    <div class="endpoint">
+        <strong>GET</strong> <a href="/hello">/hello</a> - Basic hello endpoint
+    </div>
+    <div class="endpoint">
+        <strong>GET</strong> <a href="/status">/status</a> - Application status
+    </div>
+    <div class="endpoint">
+        <strong>GET</strong> <a href="/">/</a> - Home page
+    </div>
+
+    <h2>Deployment Information:</h2>
+    <ul>
+        <li><strong>JDK Version:</strong> 21</li>
+        <li><strong>Spring Boot:</strong> 3.2.4</li>
+        <li><strong>Packaging:</strong> WAR (for Tomcat deployment)</li>
+    </ul>
+</div>
+</body>
+</html>
